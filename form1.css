@@ -1,0 +1,84 @@
+@charset "ISO-8859-1";
+
+
+/* form styling */
+
+
+select:focus, select:active, input:focus, input:active, input:focus + label, input:active + label, label[for]:focus, label[for]:active {
+	color: #FFF !important; 
+	background-color: #BB3D2F !important;
+}
+
+
+#wrapper {
+	width: 60%;
+	margin-left:4%;
+}
+
+div#formcol1 {
+	
+	list-style:none;
+}
+
+div#formcol1 label {
+	margin-right: .3em;
+	float:left;
+	width:5.3em;
+	text-align:left; 
+	/* 
+		When set to right, the radio buttons looked very off (for lecture and lab) and it needed to stay left.  Not worth Keeping
+	*/
+	display:inline-block;
+	padding-right:.3em;	
+	background:#fcfcfc;
+	clear:right;
+	}
+	
+
+div#formcol1 ul li {
+	list-style-type:none;
+	margin-left:-2em;
+	margin-bottom:.4em;
+	}
+
+	
+div#formcol1 input {
+	
+	margin-left:1.5em;
+	text-align:left;
+	display:block;
+	clear:right;
+	background-color:#F4F4F4;
+	}
+
+div#formcol1 input.reqfield{
+	background:rgb(240, 228, 64);
+}
+
+
+/* div for radio buttons and check boxes */
+
+#multchoice {
+	clear:left;
+	margin-left:1%;	
+}
+
+#multchoice input, #multchoice span {
+	float:left;
+}
+
+#multchoice span {	
+	margin: 0 .3em;
+}
+
+.submit-button {
+	margin:2em 0;
+	float:right;
+	width:70%;
+}
+
+
+		
+
+/* end of form css */
+	
